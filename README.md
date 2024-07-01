@@ -4,6 +4,7 @@ TS Finish is a powerful MPEG-TS packet processing tool. It modifies the MPEG-2 t
 
 TS Finish是一款功能强大的MPEG-TS数据包处理工具。它能够在不更改原始数据包有效负载的情况下修改MPEG-2传输流。它能够根据用户需要添加，修改和提取MPEG-TS数据包。TS Finish为用户提供了编辑MPEG-TS底层数据的便利。
 
+
 ![TS Finish preview](https://thumbs2.imgbox.com/59/19/E2adcaNt_t.png)
 
 
@@ -47,11 +48,11 @@ Applicable for Windows 7 and above operating systems.
 
 **10.6.3 (2022/02/01)**
 
-1.增加"NoProxy"附加选项，指示下载器不使用系统默认代理。
+1.修复了合并文件功能无法正常工作的问题。
 
-2.移除了一些过时的内置插件。
+2.调整了TS包的默认插入周期。
 
-3.移除了一些过时的社会主义宣传标语。
+3.修正了一个英文词条。
 
 ---
 

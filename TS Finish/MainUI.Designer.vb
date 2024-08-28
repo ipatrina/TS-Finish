@@ -507,7 +507,7 @@ Partial Class MainUI
         '
         Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Font = New System.Drawing.Font("微软雅黑", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.FormattingEnabled = True
-        Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Items.AddRange(New Object() {"AC-3 Audio", "DRA Audio"})
+        Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Items.AddRange(New Object() {"AC-3 Audio", "E-AC-3 Audio", "DRA Audio"})
         Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Location = New System.Drawing.Point(475, 208)
         Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Name = "CBO_PAT_PMT_STREAM_TYPE_DEFINIT"
         Me.CBO_PAT_PMT_STREAM_TYPE_DEFINIT.Size = New System.Drawing.Size(138, 27)
@@ -564,7 +564,7 @@ Partial Class MainUI
         '
         Me.CBO_PAT_PMT_STREAM_TYPE.Font = New System.Drawing.Font("微软雅黑", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.CBO_PAT_PMT_STREAM_TYPE.FormattingEnabled = True
-        Me.CBO_PAT_PMT_STREAM_TYPE.Items.AddRange(New Object() {"AVC (0x1B)", "HEVC (0x24)", "MPEG-1 Video (0x01)", "MPEG-2 Video (0x02)", "MPEG-4 Video (0x10)", "AVS+ (0x42)", "AVS2 (0xD2)", "AVS3 Video (0xD4)", "VC-1 (0xEA)", "LPCM (0x80)", "MPEG-1 Audio (0x03)", "MPEG-2 Audio (0x04)", "AAC (0x0F)", "AAC LATM (0x11)", "AC-3 (0x81)", "E-AC-3 (0x84)", "DRA (0x06)", "AVS3 Audio (0xD3)", "DTS (0x82)", "Dolby TrueHD (0x83)", "DTS-HD (0x85)", "DTS-MA (0x86)", "PGS (0x90)", "IGS (0x91)", "Text Subtitle (0x92)"})
+        Me.CBO_PAT_PMT_STREAM_TYPE.Items.AddRange(New Object() {"AVC (0x1B)", "HEVC (0x24)", "MPEG-1 Video (0x01)", "MPEG-2 Video (0x02)", "MPEG-4 Video (0x10)", "AVS+ (0x42)", "AVS2 (0xD2)", "AVS3 Video (0xD4)", "VC-1 (0xEA)", "LPCM (0x80)", "MPEG-1 Audio (0x03)", "MPEG-2 Audio (0x04)", "AAC (0x0F)", "AAC LATM (0x11)", "AC-3 (0x81)", "E-AC-3 (0x87)", "DRA (0x06)", "AVS3 Audio (0xD3)", "DTS (0x82)", "Dolby TrueHD (0x83)", "DTS-HD (0x85)", "DTS-MA (0x86)", "PGS (0x90)", "IGS (0x91)", "Text Subtitle (0x92)"})
         Me.CBO_PAT_PMT_STREAM_TYPE.Location = New System.Drawing.Point(256, 208)
         Me.CBO_PAT_PMT_STREAM_TYPE.Name = "CBO_PAT_PMT_STREAM_TYPE"
         Me.CBO_PAT_PMT_STREAM_TYPE.Size = New System.Drawing.Size(186, 27)

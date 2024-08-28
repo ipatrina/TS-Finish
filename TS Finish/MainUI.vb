@@ -1301,7 +1301,17 @@ Public Class MainUI
 
                         INSERT_CODEC_PAT_PMT = ""
                         If ID_BIN(LSV_PID.Items(_LOC_4).SubItems(3).Text, 8) = "00000110" Then
-                            If INSERT_CODEC_PAT_PMT.Replace("-", "").ToUpper.Contains("AC3") Then
+                            If INSERT_CODEC_PAT_PMT.Replace("-", "").ToUpper.Contains("EAC3") Then
+                                'BEGIN BUILD E-AC-3 ES INFO
+                                PACKET_DATA_BIN += "000000000011"                        'ES_info_length 0x03
+
+                                PACKET_DATA_BIN += "01111010"                            'descriptor_tag 0x7A
+
+                                PACKET_DATA_BIN += "00000001"                            'descriptor_length 0x01
+
+                                PACKET_DATA_BIN += "00000000"
+                                'END BUILD E-AC-3 ES INFO
+                            ElseIf INSERT_CODEC_PAT_PMT.Replace("-", "").ToUpper.Contains("AC3") Then
                                 'BEGIN BUILD AC-3 ES INFO
                                 PACKET_DATA_BIN += "000000000011"                        'ES_info_length 0x03
 

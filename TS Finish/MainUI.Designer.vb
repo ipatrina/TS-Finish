@@ -283,9 +283,9 @@ Partial Class MainUI
         Me.CHK_SCRAMBL_SEGMENT.AutoSize = True
         Me.CHK_SCRAMBL_SEGMENT.Location = New System.Drawing.Point(224, 101)
         Me.CHK_SCRAMBL_SEGMENT.Name = "CHK_SCRAMBL_SEGMENT"
-        Me.CHK_SCRAMBL_SEGMENT.Size = New System.Drawing.Size(291, 24)
+        Me.CHK_SCRAMBL_SEGMENT.Size = New System.Drawing.Size(293, 24)
         Me.CHK_SCRAMBL_SEGMENT.TabIndex = 3107
-        Me.CHK_SCRAMBL_SEGMENT.Text = "Scrambling tag based segmentation"
+        Me.CHK_SCRAMBL_SEGMENT.Text = "Scrambling tag-based segmentation"
         Me.CHK_SCRAMBL_SEGMENT.UseVisualStyleBackColor = True
         '
         'CHK_SELECT_ALL_PID
@@ -303,9 +303,9 @@ Partial Class MainUI
         Me.CHK_EXTRACT_PAYLOAD.AutoSize = True
         Me.CHK_EXTRACT_PAYLOAD.Location = New System.Drawing.Point(224, 161)
         Me.CHK_EXTRACT_PAYLOAD.Name = "CHK_EXTRACT_PAYLOAD"
-        Me.CHK_EXTRACT_PAYLOAD.Size = New System.Drawing.Size(203, 24)
+        Me.CHK_EXTRACT_PAYLOAD.Size = New System.Drawing.Size(175, 24)
         Me.CHK_EXTRACT_PAYLOAD.TabIndex = 3111
-        Me.CHK_EXTRACT_PAYLOAD.Text = "Extract only the payload"
+        Me.CHK_EXTRACT_PAYLOAD.Text = "Extract payload only"
         Me.CHK_EXTRACT_PAYLOAD.UseVisualStyleBackColor = True
         '
         'LBL_SUBH_PACKET_HEADER
@@ -1297,11 +1297,11 @@ Partial Class MainUI
         Me.CHK_INPUT_AUTO_SCAN.AutoSize = True
         Me.CHK_INPUT_AUTO_SCAN.Checked = True
         Me.CHK_INPUT_AUTO_SCAN.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CHK_INPUT_AUTO_SCAN.Location = New System.Drawing.Point(723, 73)
+        Me.CHK_INPUT_AUTO_SCAN.Location = New System.Drawing.Point(751, 73)
         Me.CHK_INPUT_AUTO_SCAN.Name = "CHK_INPUT_AUTO_SCAN"
-        Me.CHK_INPUT_AUTO_SCAN.Size = New System.Drawing.Size(172, 25)
+        Me.CHK_INPUT_AUTO_SCAN.Size = New System.Drawing.Size(147, 25)
         Me.CHK_INPUT_AUTO_SCAN.TabIndex = 1221
-        Me.CHK_INPUT_AUTO_SCAN.Text = "Automatically scan"
+        Me.CHK_INPUT_AUTO_SCAN.Text = "Automatic scan"
         Me.CHK_INPUT_AUTO_SCAN.UseVisualStyleBackColor = True
         '
         'BTN_INPUT_SCAN
@@ -1332,7 +1332,7 @@ Partial Class MainUI
         Me.NUM_INPUT_READ_SIZE.Name = "NUM_INPUT_READ_SIZE"
         Me.NUM_INPUT_READ_SIZE.Size = New System.Drawing.Size(150, 29)
         Me.NUM_INPUT_READ_SIZE.TabIndex = 1203
-        Me.NUM_INPUT_READ_SIZE.Value = New Decimal(New Integer() {1024, 0, 0, 0})
+        Me.NUM_INPUT_READ_SIZE.Value = New Decimal(New Integer() {4096, 0, 0, 0})
         '
         'LBL_INPUT_READ_SIZE_2
         '
@@ -1478,7 +1478,7 @@ Partial Class MainUI
         'CHK_INPUT_RTP
         '
         Me.CHK_INPUT_RTP.AutoSize = True
-        Me.CHK_INPUT_RTP.Location = New System.Drawing.Point(550, 73)
+        Me.CHK_INPUT_RTP.Location = New System.Drawing.Point(578, 73)
         Me.CHK_INPUT_RTP.Name = "CHK_INPUT_RTP"
         Me.CHK_INPUT_RTP.Size = New System.Drawing.Size(160, 25)
         Me.CHK_INPUT_RTP.TabIndex = 1211

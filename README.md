@@ -46,6 +46,16 @@ Applicable for Windows 7 and above operating systems.
 
 # Changelog / 更新日志
 
+**10.6.5 (2024/11/08)**
+
+1.更新项目框架至 Microsoft .NET Framework 4.7.2 版本。
+
+2.优化默认扫描大小为4MB。
+
+3.修正了一些英文词条。
+
+---
+
 **10.6.4 (2024/08/28)**
 
 1.更正杜比E-AC-3流类型值为0x87。
